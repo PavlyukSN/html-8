@@ -1,0 +1,446 @@
+@font-face {
+    font-family: 'Lato';
+    src: url(./fonts/Lato/Lato-Bold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.container {
+    width: 1140px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    width: 1600px;
+    height: 75px;
+    background: #222222;
+    display: flex;
+    align-items: center;
+    gap: 859px
+}
+
+.left {
+    display: flex;
+    gap: 41px;
+    align-items: center;
+    margin-left: 231px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 33px;
+}
+
+.banner {
+    width: 1600px;
+    height: 764px;
+    background-color: #F1E4E6;
+    display: flex;
+    gap: 63px;
+}
+
+.name {
+    width: 405px;
+    height: 93.1px;
+    display: flex;
+    gap: 16px;
+    margin-top: 290px;
+}
+
+.brand {
+    font-family: 'Lato';
+    font-style: normal;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 57.6px;
+    text-align: left;
+}
+
+.of {
+    font-family: 'Lato';
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 38.4px;
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo_name {
+    width: 377px;
+    height: 93px;
+}
+
+.pink {
+    color: #F16D7F;
+}
+
+.carrot {
+    border-left: 12px solid #F16D7F;
+    ;
+}
+
+.for {
+    width: 360px;
+    height: 260px;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+}
+
+.women {
+    background-image: url(./img/women.png);
+}
+
+.men {
+    background-image: url(./img/men2.png);
+}
+
+.kids {
+    background-image: url(./img/kid.png);
+}
+
+.for_long {
+    width: 1140px;
+    height: 180px;
+    background-image: url(./img/any.png);
+    background-position: center;
+    background-size: cover;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+}
+
+.catalog {
+    max-height: 470px;
+    margin-top: 65px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.catalog p {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.catalog h3 {
+    font-family: 'Lato';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    text-align: center;
+    color: #F16D7F;
+}
+
+.sales {
+    margin-top: 96px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+
+.sales h2 {
+    font-family: "Lato";
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    color: #222222;
+    margin-bottom: 6px;
+}
+
+.items {
+    font-family: 'Lato';
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    color: #9F9F9F;
+    margin-bottom: 48px;
+}
+
+.capsule {
+    font-family: 'Lato';
+    font-style: normal;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.6px;
+    text-align: left;
+    color: #000000;
+    ;
+}
+
+.known {
+    font-family: 'Lato';
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.8px;
+    text-align: left;
+    color: #5D5D5D;
+}
+
+.cash {
+    font-family: 'Lato';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+    color: #F16D7F;
+}
+
+.shop {
+    width: 360px;
+    height: 587px;
+    background: #F8F8F8;
+}
+
+.bill {
+    padding: 24px 16px 24px 16px;
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+}
+
+.market {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.browse {
+    width: 212px;
+    height: 48px;
+    margin-top: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    font-family: 'Lato';
+    font-size: 16px;
+    line-height: 19.2px;
+    color: #F26376;
+    background-color: #fff;
+    border: 1px solid #FF6A6A;
+}
+
+@media (max-width:768px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        width: 736px;
+    }
+    nav {
+        width: 768px;
+        height: 74px;
+        justify-content: space-between;
+        gap: 0;
+    }
+    .left {
+        margin-left: 32px;
+    }
+    .right {
+        margin-right: 32px;
+    }
+    .banner {
+        width: 768px;
+        height: 365px;
+        background-color: #F1E4E6;
+        display: flex;
+        gap: 0;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .banner img {
+        width: 385px;
+        height: 365px;
+    }
+    .name {
+        max-width: 311px;
+        max-height: 92px;
+        margin-right: 33px;
+        gap: 16px;
+        margin-top: 0px;
+    }
+    .brand {
+        font-size: 42px;
+        line-height: 52px;
+    }
+    .of {
+        font-size: 15px;
+        line-height: 28.8px;
+    }
+    .logo_name {
+        max-width: 283px;
+        max-height: 78px;
+    }
+    .catalog {
+        max-height: 303px;
+        gap: 19px;
+    }
+    .for {
+        width: 232px;
+        height: 167px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .for_long {
+        width: 735px;
+        height: 116px;
+    }
+    .sales {
+        margin-top: 109px;
+        margin-bottom: 70px;
+    }
+    .sales h2 {
+        margin-bottom: 3px;
+    }
+    .items {
+        margin-bottom: 72px;
+    }
+}
+
+@media (max-width: 375px) {
+    .container {
+        width: 343px;
+    }
+    #bag,
+    #user {
+        display: none;
+    }
+    nav {
+        width: 100%;
+        gap: 0
+    }
+    .left {
+        margin-left: 16px;
+    }
+    .right {
+        margin-right: 16px;
+    }
+    .banner img {
+        display: none;
+    }
+    .banner {
+        width: 100%;
+        height: 363px;
+        justify-content: center;
+        align-items: center;
+    }
+    .name {
+        width: 263px;
+        height: 66px;
+        display: flex;
+        gap: 15px;
+        margin-top: 0;
+        margin-right: 0;
+    }
+    .brand {
+        font-size: 38px;
+        font-weight: 900;
+        line-height: 45.6px;
+    }
+    .of {
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 24px;
+    }
+    .logo_name {
+        width: 377px;
+        height: 93px;
+    }
+    .pink {
+        color: #F16D7F;
+    }
+    .carrot {
+        border-left: 12px solid #F16D7F;
+        ;
+    }
+    /*  */
+    .for {
+        width: 343px;
+        height: 247px;
+    }
+    .catalog {
+        max-height: 948px;
+        margin-top: 64px;
+        gap: 32px;
+    }
+    .catalog p {
+        font-family: 'Lato';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.2px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .catalog h3 {
+        font-family: 'Lato';
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 28.8px;
+        text-align: center;
+        color: #F16D7F;
+    }
+    .sales {
+        margin-top: 64px;
+        margin-bottom: 85px;
+    }
+    .items {
+        margin-bottom: 64px;
+    }
+    .shop {
+        width: 359px;
+        height: 580px;
+    }
+    .market {
+        display: flex;
+        gap: 16px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .browse {
+        margin-top: 40px;
+    }
+}
